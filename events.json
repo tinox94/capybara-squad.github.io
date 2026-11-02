@@ -1,0 +1,258 @@
+{
+ "version": 1,
+ "events": [
+  {
+   "id": "wochenende_2026-11-13",
+   "type": "bonus",
+   "name": "Bonus-Wochenende",
+   "bonus": "flames",
+   "mult": 2,
+   "start": "2026-11-13 18:00",
+   "end": "2026-11-15 23:59"
+  },
+  {
+   "id": "wochenende_2026-11-20",
+   "type": "bonus",
+   "name": "Bonus-Wochenende",
+   "bonus": "treats",
+   "mult": 2,
+   "start": "2026-11-20 18:00",
+   "end": "2026-11-22 23:59"
+  },
+  {
+   "id": "wochenende_2026-11-27",
+   "type": "bonus",
+   "name": "Bonus-Wochenende",
+   "bonus": "offline",
+   "mult": 2,
+   "start": "2026-11-27 18:00",
+   "end": "2026-11-29 23:59"
+  },
+  {
+   "id": "wochenende_2026-12-04",
+   "type": "bonus",
+   "name": "Bonus-Wochenende",
+   "bonus": "flames",
+   "mult": 2,
+   "start": "2026-12-04 18:00",
+   "end": "2026-12-06 23:59"
+  },
+  {
+   "id": "wochenende_2026-12-11",
+   "type": "bonus",
+   "name": "Bonus-Wochenende",
+   "bonus": "treats",
+   "mult": 2,
+   "start": "2026-12-11 18:00",
+   "end": "2026-12-13 23:59"
+  },
+  {
+   "id": "wochenende_2026-12-18",
+   "type": "bonus",
+   "name": "Bonus-Wochenende",
+   "bonus": "offline",
+   "mult": 2,
+   "start": "2026-12-18 18:00",
+   "end": "2026-12-20 23:59"
+  },
+  {
+   "id": "wochenende_2026-12-25",
+   "type": "bonus",
+   "name": "Bonus-Wochenende",
+   "bonus": "flames",
+   "mult": 2,
+   "start": "2026-12-25 18:00",
+   "end": "2026-12-27 23:59"
+  },
+  {
+   "id": "silvester_2026",
+   "type": "bonus",
+   "name": "Silvester-Bonus",
+   "bonus": "all",
+   "mult": 2,
+   "start": "2026-12-31 00:00",
+   "end": "2027-01-01 23:59"
+  },
+  {
+   "id": "weihnachten_2026",
+   "type": "season",
+   "theme": "xmas",
+   "name": "Weihnachts-Event",
+   "currency": "Lebkuchen",
+   "text": "Alle Gegner lassen Lebkuchen fallen.\nSammle sie für Belohnungen!",
+   "start": "2026-12-01 00:00",
+   "end": "2026-12-31 23:59",
+   "drop": 0.03,
+   "boss_drop": 5,
+   "track": [
+    {
+     "need": 50,
+     "reward": {
+      "treats": 300
+     }
+    },
+    {
+     "need": 150,
+     "reward": {
+      "packs": 2
+     }
+    },
+    {
+     "need": 300,
+     "reward": {
+      "flames": 500
+     }
+    },
+    {
+     "need": 500,
+     "reward": {
+      "treats": 1000
+     }
+    },
+    {
+     "need": 750,
+     "reward": {
+      "runes": 3
+     }
+    },
+    {
+     "need": 1000,
+     "reward": {
+      "egg": 1
+     }
+    },
+    {
+     "need": 1500,
+     "reward": {
+      "skin": "xmas"
+     }
+    }
+   ],
+   "advent": [
+    {
+     "treats": 200
+    },
+    {
+     "ginger": 50
+    },
+    {
+     "flames": 300
+    },
+    {
+     "packs": 1
+    },
+    {
+     "treats": 250
+    },
+    {
+     "packs": 2
+    },
+    {
+     "runes": 1
+    },
+    {
+     "ginger": 60
+    },
+    {
+     "flames": 400
+    },
+    {
+     "treats": 300
+    },
+    {
+     "screws": 60
+    },
+    {
+     "packs": 2
+    },
+    {
+     "ginger": 80
+    },
+    {
+     "runes": 2
+    },
+    {
+     "treats": 400
+    },
+    {
+     "flames": 500
+    },
+    {
+     "packs": 2
+    },
+    {
+     "ginger": 100
+    },
+    {
+     "egg": 1
+    },
+    {
+     "treats": 500
+    },
+    {
+     "runes": 2
+    },
+    {
+     "flames": 600
+    },
+    {
+     "packs": 3
+    },
+    {
+     "pet": "rentier"
+    }
+   ],
+   "missions": [
+    {
+     "text": "Besiege %d Gegner",
+     "stat": "kills",
+     "goal": 1000,
+     "reward": {
+      "ginger": 100
+     }
+    },
+    {
+     "text": "Besiege %d Bosse",
+     "stat": "bosses",
+     "goal": 30,
+     "reward": {
+      "ginger": 80
+     }
+    },
+    {
+     "text": "Schaffe %d Arena-Wellen",
+     "stat": "arena",
+     "goal": 20,
+     "reward": {
+      "ginger": 80
+     }
+    },
+    {
+     "text": "Ziehe %d Waffen",
+     "stat": "pulls",
+     "goal": 30,
+     "reward": {
+      "ginger": 60
+     }
+    },
+    {
+     "text": "Verschmelze %d Waffen",
+     "stat": "merges",
+     "goal": 15,
+     "reward": {
+      "ginger": 60
+     }
+    },
+    {
+     "text": "Gewinne %d Gebietskämpfe",
+     "stat": "fights",
+     "goal": 5,
+     "reward": {
+      "ginger": 60
+     }
+    }
+   ],
+   "title": "Weihnachten"
+  }
+ ]
+}
