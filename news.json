@@ -1,6 +1,8 @@
 {"news": [
-  {"date": "2026-11-04", "title": "Event-Themes", "text": "Events bekommen eigene Farben und Teilchen: Herzen, Frühling, Sommer, Halloween und mehr. Kommt mit dem nächsten Update.",
-   "title_en": "Event themes", "text_en": "Events get their own colours and particles: hearts, spring, summer, Halloween and more. Coming with the next update."},
+  {"date": "2026-11-05", "title": "Update 1.0.4 ist da", "text": "Offline-Geld verdoppeln per Werbung funktioniert wieder. Neu: Auto-Upgrades lassen sich in den Einstellungen abschalten – dann bleibt dein Offline-Geld auf dem Konto. Außerdem überlappen die Meldungen nicht mehr und Knöpfe auf langen Handys reagieren richtig.",
+   "title_en": "Update 1.0.2 is out", "text_en": "Doubling offline money via ad works again. New: auto-upgrades can be turned off in the settings – your offline money then stays in your wallet. Messages no longer overlap and buttons on tall phones respond correctly."},
+  {"date": "2026-11-05", "title": "Event-Themes", "text": "Events haben jetzt eigene Farben und Teilchen – das Tester-Event leuchtet in Pink mit Herzen. Weitere Themes für Frühling, Sommer und Halloween sind schon vorbereitet.",
+   "title_en": "Event themes", "text_en": "Events now have their own colours and particles – the tester event glows pink with hearts. More themes for spring, summer and Halloween are ready to go."},
   {"date": "2026-11-04", "title": "Event-Kalender", "text": "Hier auf der Seite siehst du jetzt, welche Events gerade laufen und was als Nächstes kommt.",
    "title_en": "Event calendar", "text_en": "This page now shows which events are running and what's coming next."},
   {"date": "2026-11-04", "title": "Dankeschön für Tester", "text": "Alle Tester bekommen den exklusiven Tester-Capy (+10 % auf alles) und den Titel „Tester der ersten Stunde“.",
