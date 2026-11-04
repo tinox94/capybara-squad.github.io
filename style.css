@@ -41,9 +41,11 @@ footer a{color:var(--cream)}
 /* Tester werden */
 .intro{font-size:19px;max-width:760px;margin:0 0 36px}
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.step{position:relative;padding-top:30px}
+.step{position:relative;padding-top:30px;display:flex;flex-direction:column}
+.step .btn.small{margin-top:auto;align-self:flex-start} /* Knöpfe in allen drei Kästen auf gleicher Höhe */
+.step p{margin-bottom:14px}
 .step .num{position:absolute;top:-16px;left:22px;width:40px;height:40px;border-radius:50%;background:linear-gradient(#ffd36a,#f2b33b);color:#4a2a08;font-weight:700;display:grid;place-items:center;box-shadow:0 3px 0 #a8741a}
-.step .btn.small{font-size:17px;padding:10px 18px;margin-top:14px;border-radius:14px;box-shadow:0 4px 0 #1f6e30}
+.step .btn.small{font-size:17px;padding:10px 18px;border-radius:14px;box-shadow:0 4px 0 #1f6e30}
 .hint{margin-top:22px;background:rgba(255,211,106,.1);border:1px solid rgba(255,211,106,.3);border-radius:16px;padding:14px 18px;font-size:16px}
 .hint p{margin:0}
 .reward{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;margin-top:22px;border:3px solid var(--gold)}
