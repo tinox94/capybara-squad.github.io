@@ -1,12 +1,128 @@
 {
- "version": 1,
+ "version": 2,
  "events": [
+  {
+   "id": "test_2026",
+   "type": "season",
+   "theme": "xmas",
+   "name": "Tester Event",
+   "currency": "Herzen",
+   "text": "Alle Gegner lassen Herzen fallen.\nSammle sie für Belohnungen!\n(Ja, noch sind es Lebkochenmänner..)",
+   "start": "2026-11-04 00:00",
+   "end": "2026-11-18 23:59",
+   "drop": 0.03,
+   "boss_drop": 5.0,
+   "track": [
+    {
+     "need": 50.0,
+     "reward": {
+      "treats": 300.0
+     }
+    },
+    {
+     "need": 150.0,
+     "reward": {
+      "packs": 2.0
+     }
+    },
+    {
+     "need": 300.0,
+     "reward": {
+      "flames": 500.0
+     }
+    },
+    {
+     "need": 500.0,
+     "reward": {
+      "treats": 1000.0
+     }
+    },
+    {
+     "need": 750.0,
+     "reward": {
+      "runes": 3.0
+     }
+    },
+    {
+     "need": 1000.0,
+     "reward": {
+      "egg": 1.0
+     }
+    },
+    {
+     "need": 1500,
+     "reward": {
+      "screws": 300
+     }
+    }
+   ],
+   "advent": [],
+   "missions": [
+    {
+     "text": "Besiege %d Gegner",
+     "stat": "kills",
+     "goal": 1000.0,
+     "reward": {
+      "ginger": 100.0
+     }
+    },
+    {
+     "text": "Besiege %d Bosse",
+     "stat": "bosses",
+     "goal": 30.0,
+     "reward": {
+      "ginger": 80.0
+     }
+    },
+    {
+     "text": "Schaffe %d Arena-Wellen",
+     "stat": "arena",
+     "goal": 20.0,
+     "reward": {
+      "ginger": 80.0
+     }
+    },
+    {
+     "text": "Ziehe %d Waffen",
+     "stat": "pulls",
+     "goal": 30.0,
+     "reward": {
+      "ginger": 60.0
+     }
+    },
+    {
+     "text": "Verschmelze %d Waffen",
+     "stat": "merges",
+     "goal": 15.0,
+     "reward": {
+      "ginger": 60.0
+     }
+    },
+    {
+     "text": "Gewinne %d Gebietskämpfe",
+     "stat": "fights",
+     "goal": 5.0,
+     "reward": {
+      "ginger": 60.0
+     }
+    },
+    {
+     "text": "Kaufe %d Upgrades",
+     "stat": "upgrades",
+     "goal": 150,
+     "reward": {
+      "ginger": 50
+     }
+    }
+   ],
+   "title": "Tester Event"
+  },
   {
    "id": "wochenende_2026-11-13",
    "type": "bonus",
    "name": "Bonus-Wochenende",
    "bonus": "flames",
-   "mult": 2,
+   "mult": 2.0,
    "start": "2026-11-13 18:00",
    "end": "2026-11-15 23:59"
   },
@@ -15,7 +131,7 @@
    "type": "bonus",
    "name": "Bonus-Wochenende",
    "bonus": "treats",
-   "mult": 2,
+   "mult": 2.0,
    "start": "2026-11-20 18:00",
    "end": "2026-11-22 23:59"
   },
@@ -24,54 +140,9 @@
    "type": "bonus",
    "name": "Bonus-Wochenende",
    "bonus": "offline",
-   "mult": 2,
+   "mult": 2.0,
    "start": "2026-11-27 18:00",
    "end": "2026-11-29 23:59"
-  },
-  {
-   "id": "wochenende_2026-12-04",
-   "type": "bonus",
-   "name": "Bonus-Wochenende",
-   "bonus": "flames",
-   "mult": 2,
-   "start": "2026-12-04 18:00",
-   "end": "2026-12-06 23:59"
-  },
-  {
-   "id": "wochenende_2026-12-11",
-   "type": "bonus",
-   "name": "Bonus-Wochenende",
-   "bonus": "treats",
-   "mult": 2,
-   "start": "2026-12-11 18:00",
-   "end": "2026-12-13 23:59"
-  },
-  {
-   "id": "wochenende_2026-12-18",
-   "type": "bonus",
-   "name": "Bonus-Wochenende",
-   "bonus": "offline",
-   "mult": 2,
-   "start": "2026-12-18 18:00",
-   "end": "2026-12-20 23:59"
-  },
-  {
-   "id": "wochenende_2026-12-25",
-   "type": "bonus",
-   "name": "Bonus-Wochenende",
-   "bonus": "flames",
-   "mult": 2,
-   "start": "2026-12-25 18:00",
-   "end": "2026-12-27 23:59"
-  },
-  {
-   "id": "silvester_2026",
-   "type": "bonus",
-   "name": "Silvester-Bonus",
-   "bonus": "all",
-   "mult": 2,
-   "start": "2026-12-31 00:00",
-   "end": "2027-01-01 23:59"
   },
   {
    "id": "weihnachten_2026",
@@ -83,46 +154,46 @@
    "start": "2026-12-01 00:00",
    "end": "2026-12-31 23:59",
    "drop": 0.03,
-   "boss_drop": 5,
+   "boss_drop": 5.0,
    "track": [
     {
-     "need": 50,
+     "need": 50.0,
      "reward": {
-      "treats": 300
+      "treats": 300.0
      }
     },
     {
-     "need": 150,
+     "need": 150.0,
      "reward": {
-      "packs": 2
+      "packs": 2.0
      }
     },
     {
-     "need": 300,
+     "need": 300.0,
      "reward": {
-      "flames": 500
+      "flames": 500.0
      }
     },
     {
-     "need": 500,
+     "need": 500.0,
      "reward": {
-      "treats": 1000
+      "treats": 1000.0
      }
     },
     {
-     "need": 750,
+     "need": 750.0,
      "reward": {
-      "runes": 3
+      "runes": 3.0
      }
     },
     {
-     "need": 1000,
+     "need": 1000.0,
      "reward": {
-      "egg": 1
+      "egg": 1.0
      }
     },
     {
-     "need": 1500,
+     "need": 1500.0,
      "reward": {
       "skin": "xmas"
      }
@@ -130,73 +201,73 @@
    ],
    "advent": [
     {
-     "treats": 200
+     "treats": 200.0
     },
     {
-     "ginger": 50
+     "ginger": 50.0
     },
     {
-     "flames": 300
+     "flames": 300.0
     },
     {
-     "packs": 1
+     "packs": 1.0
     },
     {
-     "treats": 250
+     "treats": 250.0
     },
     {
-     "packs": 2
+     "packs": 2.0
     },
     {
-     "runes": 1
+     "runes": 1.0
     },
     {
-     "ginger": 60
+     "ginger": 60.0
     },
     {
-     "flames": 400
+     "flames": 400.0
     },
     {
-     "treats": 300
+     "treats": 300.0
     },
     {
-     "screws": 60
+     "screws": 60.0
     },
     {
-     "packs": 2
+     "packs": 2.0
     },
     {
-     "ginger": 80
+     "ginger": 80.0
     },
     {
-     "runes": 2
+     "runes": 2.0
     },
     {
-     "treats": 400
+     "treats": 400.0
     },
     {
-     "flames": 500
+     "flames": 500.0
     },
     {
-     "packs": 2
+     "packs": 2.0
     },
     {
-     "ginger": 100
+     "ginger": 100.0
     },
     {
-     "egg": 1
+     "egg": 1.0
     },
     {
-     "treats": 500
+     "treats": 500.0
     },
     {
-     "runes": 2
+     "runes": 2.0
     },
     {
-     "flames": 600
+     "flames": 600.0
     },
     {
-     "packs": 3
+     "packs": 3.0
     },
     {
      "pet": "rentier"
@@ -206,53 +277,98 @@
     {
      "text": "Besiege %d Gegner",
      "stat": "kills",
-     "goal": 1000,
+     "goal": 1000.0,
      "reward": {
-      "ginger": 100
+      "ginger": 100.0
      }
     },
     {
      "text": "Besiege %d Bosse",
      "stat": "bosses",
-     "goal": 30,
+     "goal": 30.0,
      "reward": {
-      "ginger": 80
+      "ginger": 80.0
      }
     },
     {
      "text": "Schaffe %d Arena-Wellen",
      "stat": "arena",
-     "goal": 20,
+     "goal": 20.0,
      "reward": {
-      "ginger": 80
+      "ginger": 80.0
      }
     },
     {
      "text": "Ziehe %d Waffen",
      "stat": "pulls",
-     "goal": 30,
+     "goal": 30.0,
      "reward": {
-      "ginger": 60
+      "ginger": 60.0
      }
     },
     {
      "text": "Verschmelze %d Waffen",
      "stat": "merges",
-     "goal": 15,
+     "goal": 15.0,
      "reward": {
-      "ginger": 60
+      "ginger": 60.0
      }
     },
     {
      "text": "Gewinne %d Gebietskämpfe",
      "stat": "fights",
-     "goal": 5,
+     "goal": 5.0,
      "reward": {
-      "ginger": 60
+      "ginger": 60.0
      }
     }
    ],
    "title": "Weihnachten"
+  },
+  {
+   "id": "wochenende_2026-12-04",
+   "type": "bonus",
+   "name": "Bonus-Wochenende",
+   "bonus": "flames",
+   "mult": 2.0,
+   "start": "2026-12-04 18:00",
+   "end": "2026-12-06 23:59"
+  },
+  {
+   "id": "wochenende_2026-12-11",
+   "type": "bonus",
+   "name": "Bonus-Wochenende",
+   "bonus": "treats",
+   "mult": 2.0,
+   "start": "2026-12-11 18:00",
+   "end": "2026-12-13 23:59"
+  },
+  {
+   "id": "wochenende_2026-12-18",
+   "type": "bonus",
+   "name": "Bonus-Wochenende",
+   "bonus": "offline",
+   "mult": 2.0,
+   "start": "2026-12-18 18:00",
+   "end": "2026-12-20 23:59"
+  },
+  {
+   "id": "wochenende_2026-12-25",
+   "type": "bonus",
+   "name": "Bonus-Wochenende",
+   "bonus": "flames",
+   "mult": 2.0,
+   "start": "2026-12-25 18:00",
+   "end": "2026-12-27 23:59"
+  },
+  {
+   "id": "silvester_2026",
+   "type": "bonus",
+   "name": "Silvester-Bonus",
+   "bonus": "all",
+   "mult": 2.0,
+   "start": "2026-12-31 00:00",
+   "end": "2027-01-01 23:59"
   }
  ]
 }
