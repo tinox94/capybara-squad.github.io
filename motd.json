@@ -1,10 +1,1 @@
-{
- "id": "werbung-test-1",
- "title": "Werbung gerade nicht verfügbar",
- "text": "Danke fürs Testen! Die Werbevideos funktionieren in der Testphase noch nicht – das ist bekannt und wird bald behoben. Bis dahin kannst du alles andere ganz normal spielen.",
- "title_en": "Ads currently unavailable",
- "text_en": "Thanks for testing! Reward videos don't work during the test phase yet – we know and it will be fixed soon. Until then you can play everything else as usual.",
- "start": "2026-11-03 00:00",
- "end": "2026-11-30 23:59",
- "repeat": false
-}
+{}
