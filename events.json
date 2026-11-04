@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "events": [
   {
    "id": "test_2026",
@@ -7,7 +7,7 @@
    "theme": "xmas",
    "name": "Tester Event",
    "currency": "Herzen",
-   "text": "Alle Gegner lassen Herzen fallen.\nSammle sie für Belohnungen!\n(Ja, noch sind es Lebkuchen..)",
+   "text": "Alle Gegner lassen Herzen fallen.\nSammle sie für Belohnungen!\n(Ja, noch sind es Lebkochenmänner..)",
    "start": "2026-11-04 00:00",
    "end": "2026-11-18 23:59",
    "drop": 0.03,
@@ -50,9 +50,9 @@
      }
     },
     {
-     "need": 1500,
+     "need": 1500.0,
      "reward": {
-      "screws": 300
+      "screws": 300.0
      }
     }
    ],
@@ -109,13 +109,14 @@
     {
      "text": "Kaufe %d Upgrades",
      "stat": "upgrades",
-     "goal": 150,
+     "goal": 150.0,
      "reward": {
-      "ginger": 50
+      "ginger": 50.0
      }
     }
    ],
-   "title": "Tester Event"
+   "title": "Tester Event",
+   "icon": "ev_herz"
   },
   {
    "id": "wochenende_2026-11-13",
