@@ -1,9 +1,9 @@
 {
- "id": "tester-code-1",
- "title": "Dein Tester-Dankeschön",
- "text": "Mit Update 1.0.7 (heute ab ca. 15–16 Uhr) kannst du den Code TESTER2026 einlösen – Spielwährung im Wert von 50 €!\nSo geht's: Zahnrad unten links – ganz unten auf „Code einlösen“ tippen.\nGültig bis 31.12.",
- "title_en": "Your tester thank-you",
- "text_en": "With update 1.0.7 (today from about 3–4 pm CET) you can redeem the code TESTER2026 – in-game currency worth €50!\nHow: gear icon bottom left – tap “Redeem code” at the very bottom.\nValid until Dec 31.",
+  "id": "update-107-live",
+  "title": "Update 1.0.7 ist da!",
+  "text": "Bitte im Play Store von Hand aktualisieren – in der Testphase kommt das Update fast nie automatisch.\nDanach wartet dein Dankeschön: Code TESTER2026 einlösen (Zahnrad unten links – „Code einlösen“). Spielwährung im Wert von 50 €, gültig bis 31.12.",
+  "title_en": "Update 1.0.7 is live!",
+  "text_en": "Please update by hand in the Play Store – during testing, updates almost never install automatically.\nThen claim your thank-you: redeem code TESTER2026 (gear icon bottom left – “Redeem code”). In-game currency worth €50, valid until Dec 31.",
  "start": "2026-11-06 00:00",
  "end": "2026-11-06 23:59",
  "repeat": false
