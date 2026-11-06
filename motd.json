@@ -1,1 +1,10 @@
-{}
+{
+ "id": "tester-code-1",
+ "title": "Dein Tester-Dankeschön",
+ "text": "Mit Update 1.0.7 (heute ab ca. 15–16 Uhr) kannst du den Code TESTER2026 einlösen – Spielwährung im Wert von 50 €!\nSo geht's: Zahnrad unten links – ganz unten auf „Code einlösen“ tippen.\nGültig bis 31.12.",
+ "title_en": "Your tester thank-you",
+ "text_en": "With update 1.0.7 (today from about 3–4 pm CET) you can redeem the code TESTER2026 – in-game currency worth €50!\nHow: gear icon bottom left – tap “Redeem code” at the very bottom.\nValid until Dec 31.",
+ "start": "2026-11-06 00:00",
+ "end": "2026-11-06 23:59",
+ "repeat": false
+}
