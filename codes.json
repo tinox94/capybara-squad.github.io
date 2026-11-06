@@ -1,0 +1,20 @@
+{
+ "codes": [
+  {
+   "hash": "61f4a3b0656ca9d41678a3a84839ffd1f29a1669fccbfc686878bde84789b314",
+   "name": "Danke fürs Testen!",
+   "rewards": {
+    "treats": 8000,
+    "packs": 30,
+    "runes": 15,
+    "boost_min": 60,
+    "flames": 2000,
+    "screws": 100,
+    "shards": 100
+   },
+   "name_en": "Thanks for testing!",
+   "start": "2026-11-05 00:00",
+   "end": "2026-12-31 23:59"
+  }
+ ]
+}
