@@ -14,5 +14,8 @@
 	{"id":"treats5","icon":"shop_treats5","name":"Leckerlie-Schatz","desc":"18.000 Leckerlies","name_en":"Treat Treasure","desc_en":"18,000 treats","price":49.99,"tab":2,"gross":true,"treats":18000,"ribbon":"BESTER WERT","rcol":"#bf3d45"},
 	{"id":"legend","icon":"shop_legend","name":"Legenden-Paket","desc":"XX-Waffe · 100 Packs · 20 Runen · 10000 Leckerlies · Werbefrei","name_en":"Legend Pack","desc_en":"XX weapon · 100 packs · 20 runes · 10000 treats · ad-free","price":99.99,"angebot":"hero","banner":true,"top":true,"once":true,"packs":100,"treats":10000,"runes":20,"grants":["noads"],"ribbon":"LEGENDE","rcol":"#cc1a26","legend":true},
 	{"id":"runes5","icon":"shop_runes","name":"Runen-Beutel","desc":"5 zufällige Runen","name_en":"Rune Pouch","desc_en":"5 random runes","price":2.99,"tab":1,"runes":5},
-	{"id":"runes15","icon":"shop_runes","name":"Runen-Truhe","desc":"15 Runen · 1 mind. Episch","name_en":"Rune Chest","desc_en":"15 runes · at least 1 epic","price":7.99,"tab":1,"runes":15,"rune_min":2}
+	{"id":"runes15","icon":"shop_runes","name":"Runen-Truhe","desc":"15 Runen · 1 mind. Episch","name_en":"Rune Chest","desc_en":"15 runes · at least 1 epic","price":7.99,"tab":1,"runes":15,"rune_min":2},
+	{"id":"leaves1","icon":"shop_leaves1","name":"Blätter-Handvoll","desc":"250 Blätter fürs Terrarium","name_en":"Handful of Leaves","desc_en":"250 leaves for the terrarium","price":0.99,"tab":2,"leaves":250},
+	{"id":"leaves2","icon":"shop_leaves2","name":"Blätter-Korb","desc":"900 Blätter fürs Terrarium","name_en":"Basket of Leaves","desc_en":"900 leaves for the terrarium","price":2.99,"tab":2,"leaves":900},
+	{"id":"leaves3","icon":"shop_leaves3","name":"Blätter-Kiste","desc":"2.400 Blätter fürs Terrarium","name_en":"Crate of Leaves","desc_en":"2,400 leaves for the terrarium","price":6.99,"tab":2,"leaves":2400,"ribbon":"BELIEBT","rcol":"#db6e29"}
 ]
