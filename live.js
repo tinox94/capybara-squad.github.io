@@ -1,4 +1,4 @@
-// Tester-Zähler (tester.json) und Neuigkeiten (news.json) – beides einfach auf GitHub bearbeiten
+// Tester-Zähler (tester.json) – auf GitHub bearbeiten. Neuigkeiten kommen jetzt aus changelog.json (changelog.js).
 (function(){
   function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
   function two(de,en){return '<span data-lang="de">'+de+'</span><span data-lang="en">'+en+'</span>'}
@@ -8,7 +8,7 @@
     var box=document.getElementById('tcount');if(!box)return;
     var n=Math.max(0,parseInt(d.testers,10)||0),g=Math.max(1,parseInt(d.goal,10)||12),pct=Math.min(100,Math.round(n/g*100));
     var de,en;
-    if(n>=g){de='Geschafft – '+n+' Tester! Danke! Du kannst trotzdem noch mitmachen.<br/>Momentan haben sich 12 Tester für 5 zusammenhängende Tage angemeldet';en='We did it – '+n+' testers! Thank you! You can still join.<br/>Currently, 12 testers have signed up for 5 consecutive days'}
+    if(n>=g){de='Geschafft – '+n+' Tester! Danke! Du kannst trotzdem noch mitmachen.';en='We did it – '+n+' testers! Thank you! You can still join.'}
     else{var r=g-n;de='<b>'+n+' von '+g+'</b> Testern gefunden – noch '+r+(r===1?' fehlt':' fehlen')+'. Hilf mit!';en='<b>'+n+' of '+g+'</b> testers found – '+r+' to go. Help out!'}
     box.innerHTML='<p>'+two(de,en)+'</p><div class="tbar"><i style="width:'+pct+'%"></i></div>';
     box.hidden=false;
@@ -26,6 +26,5 @@
   }
   document.addEventListener('DOMContentLoaded',function(){
     get('tester.json').then(testers).catch(function(){});
-    get('news.json').then(news).catch(function(){var s=document.getElementById('news');if(s)s.hidden=true});
   });
 })();
