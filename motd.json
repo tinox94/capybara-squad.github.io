@@ -1,10 +1,10 @@
 {
- "id": "update-107-live_2",
- "title": "Update 1.0.7 ist da!",
- "text": "Bitte im Play Store von Hand aktualisieren – in der Testphase kommt das Update fast nie automatisch.\nDanach wartet dein Dankeschön: Code TESTER2026 einlösen (Zahnrad unten links – „Code einlösen“). Spielwährung im Wert von 50 €, gültig bis 31.12.",
- "title_en": "Update 1.0.7 is live!",
- "text_en": "Please update by hand in the Play Store – during testing, updates almost never install automatically.\nThen claim your thank-you: redeem code TESTER2026 (gear icon bottom left – “Redeem code”). In-game currency worth €50, valid until Dec 31.",
- "start": "2026-11-06 00:00",
- "end": "2026-11-07 23:59",
+ "id": "karten-update-1",
+ "title": "Bitte gerade keine Karten kaufen",
+ "text": "Die Sammelkarten werden gerade überarbeitet und sollen mit einem der nächsten Updates deutlich mehr bringen. Bitte kauf bis dahin keine Premium-Packs, auch nicht in Bundles – sonst bekommst du jetzt weniger für dein Geld als später. Kostenlose Packs kannst du ganz normal öffnen.",
+ "title_en": "Please don't buy cards right now",
+ "text_en": "The collectible cards are being reworked and should be much more useful in one of the next updates. Until then, please don't buy premium packs, also not in bundles – otherwise you'd get less for your money now than later. You can open free packs as usual.",
+ "start": "2026-11-13 14:00",
+ "end": "2026-12-31 23:59",
  "repeat": false
 }
