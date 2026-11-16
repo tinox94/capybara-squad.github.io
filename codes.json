@@ -15,6 +15,16 @@
    "name_en": "Thanks for testing!",
    "start": "2026-11-05 00:00",
    "end": "2026-12-31 23:59"
+  },
+  {
+   "hash": "6beedb4e0b9024918e660e2932b163c4dc07e0ee3bd4d9e8bc4d9f60cd42465e",
+   "name": "Danke, dass du dem Kanal folgst! 🧡",
+   "rewards": {
+    "treats": 2500,
+    "flames": 5000,
+    "coins_min": 60
+   },
+   "end": "2026-11-30"
   }
  ]
 }
