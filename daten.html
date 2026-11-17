@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spieldaten – Capybara Squad</title>
+<link rel="icon" href="img/capy.png">
+<link rel="stylesheet" href="style.css">
+<style>
+.flow{width:100%;height:auto;display:block;margin:10px 0 6px}
+.flow text{font-family:"Fredoka",system-ui,sans-serif}
+.twocol{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
+@media (max-width:760px){.twocol{grid-template-columns:1fr}}
+.json{background:#2c1c12;color:#f3e2c4;border-radius:16px;padding:16px 18px;font:15px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;overflow-x:auto;margin:0;box-shadow:0 5px 0 rgba(0,0,0,.25)}
+.json .k{color:#ffd36a}.json .n{color:#7fd88f}.json .s{color:#8fc3ff}.json .c{color:#a88d70}
+.felder{width:100%;border-collapse:collapse;font-size:15.5px}
+.felder td{padding:7px 8px;border-bottom:1px solid #ecdcbc;vertical-align:top}
+.felder td:first-child{font-family:ui-monospace,Consolas,monospace;color:#b05a10;width:34%;word-break:break-word}
+.satz{display:grid;gap:16px}
+.ja,.nein{border-radius:16px;padding:14px 18px;margin:0}
+.ja{background:#e3f4df}.nein{background:#fbe1dc}
+.ja h3,.nein h3{margin:0 0 6px}
+.ja ul,.nein ul{margin:0;padding-left:20px}
+.kurz{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:14px 0}
+@media (max-width:760px){.kurz{grid-template-columns:1fr}}
+.kurz div{background:#f6e5c3;border-radius:16px;padding:14px;text-align:center;font-size:16px}
+.kurz b{display:block;font-size:26px}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="logo" href="index.html"><span class="cup">☕</span>Second Coffee Studio</a>
+<nav><a href="index.html">Capybara Squad</a><a href="datenschutz.html">Datenschutz</a></nav></div></header>
+<main class="legal">
+<h1>Welche Spieldaten wir sammeln</h1>
+<p class="stand">Capybara Squad · Spiel-Statistik für das Balancing · Stand: 17. November 2026</p>
+
+<p>Damit Capybara Squad fair und spannend bleibt, rechnen wir viel mit einer <b>Spiel-Simulation</b>: Ein Computer spielt das Spiel tausendfach durch, und wir prüfen, ob z. B. Rebirths, Arena oder Belohnungen zu schnell oder zu langsam gehen. Damit diese Simulation so spielt wie echte Spieler, brauchen wir ein paar Zahlen aus dem echten Spiel – <b>aber nur, wenn du zustimmst</b>.</p>
+
+<div class="kurz">
+<div><b>1× am Tag</b>eine kleine Zusammenfassung</div>
+<div><b>nur mit Ja</b>du wirst im Spiel gefragt</div>
+<div><b>jederzeit aus</b>Einstellungen → Datenschutz</div>
+</div>
+
+<h2>So kommen die Daten zu uns</h2>
+<svg class="flow" viewBox="0 0 860 250" role="img" aria-label="Ablauf: Handy sendet einmal am Tag verschlüsselt an unseren Server, der speichert in einer Datenbank, daraus wird die Spiel-Simulation eingestellt">
+  <defs>
+    <marker id="pf" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b05a10"/></marker>
+  </defs>
+  <!-- Handy -->
+  <rect x="40" y="30" width="120" height="190" rx="22" fill="#3b2412"/>
+  <rect x="52" y="48" width="96" height="150" rx="10" fill="#9fdba9"/>
+  <image href="img/capy.png" x="62" y="70" width="76" height="76" style="image-rendering:pixelated"/>
+  <rect x="64" y="158" width="72" height="26" rx="8" fill="#fff6e4"/>
+  <text x="100" y="176" text-anchor="middle" font-size="13" fill="#3b2412">Spiel</text>
+  <text x="100" y="244" text-anchor="middle" font-size="16" fill="#3b2412" font-weight="600">Dein Handy</text>
+  <!-- Pfeil 1 -->
+  <line x1="172" y1="110" x2="300" y2="110" stroke="#b05a10" stroke-width="4" stroke-dasharray="8 6" marker-end="url(#pf)"/>
+  <rect x="190" y="56" width="98" height="36" rx="10" fill="#fff" stroke="#e8d3ad"/>
+  <text x="239" y="79" text-anchor="middle" font-size="14" fill="#3b2412">🔒 HTTPS</text>
+  <text x="236" y="138" text-anchor="middle" font-size="13" fill="#8a6b4a">1× am Tag</text>
+  <text x="236" y="156" text-anchor="middle" font-size="13" fill="#8a6b4a">ca. 0,5 KB</text>
+  <!-- Server -->
+  <rect x="312" y="44" width="140" height="132" rx="16" fill="#f6e5c3" stroke="#e0c58f" stroke-width="2"/>
+  <rect x="332" y="64" width="100" height="22" rx="6" fill="#3b2412"/><circle cx="345" cy="75" r="4" fill="#7fd88f"/>
+  <rect x="332" y="94" width="100" height="22" rx="6" fill="#3b2412"/><circle cx="345" cy="105" r="4" fill="#7fd88f"/>
+  <rect x="332" y="124" width="100" height="22" rx="6" fill="#3b2412"/><circle cx="345" cy="135" r="4" fill="#ffd36a"/>
+  <text x="382" y="200" text-anchor="middle" font-size="16" fill="#3b2412" font-weight="600">Unser eigener Server</text>
+  <text x="382" y="220" text-anchor="middle" font-size="13" fill="#8a6b4a">prüft · speichert keine IP</text>
+  <!-- Pfeil 2 -->
+  <line x1="462" y1="110" x2="540" y2="110" stroke="#b05a10" stroke-width="4" marker-end="url(#pf)"/>
+  <!-- Datenbank -->
+  <ellipse cx="610" cy="58" rx="54" ry="16" fill="#e0c58f"/>
+  <path d="M556,58 v100 a54,16 0 0 0 108,0 v-100" fill="#f6e5c3" stroke="#e0c58f" stroke-width="2"/>
+  <ellipse cx="610" cy="58" rx="54" ry="16" fill="#f2b33b"/>
+  <path d="M556,92 a54,16 0 0 0 108,0 M556,126 a54,16 0 0 0 108,0" fill="none" stroke="#e0c58f" stroke-width="2"/>
+  <text x="610" y="200" text-anchor="middle" font-size="16" fill="#3b2412" font-weight="600">Datenbank</text>
+  <text x="610" y="220" text-anchor="middle" font-size="13" fill="#8a6b4a">nur Zahlen</text>
+  <!-- Pfeil 3 -->
+  <line x1="672" y1="110" x2="730" y2="110" stroke="#b05a10" stroke-width="4" marker-end="url(#pf)"/>
+  <!-- Simulation -->
+  <rect x="740" y="50" width="100" height="110" rx="16" fill="#3b2412"/>
+  <polyline points="756,140 776,118 794,128 812,92 826,100" fill="none" stroke="#7fd88f" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="756" y="66" width="22" height="6" rx="3" fill="#ffd36a"/><rect x="784" y="66" width="40" height="6" rx="3" fill="#a88d70"/>
+  <text x="790" y="200" text-anchor="middle" font-size="16" fill="#3b2412" font-weight="600">Simulation</text>
+  <text x="790" y="220" text-anchor="middle" font-size="13" fill="#8a6b4a">fürs Balancing</text>
+</svg>
+
+<h2>Ein echter Datensatz</h2>
+<p>Genau so sieht eine Tages-Zusammenfassung aus, die das Spiel sendet. Mehr ist es nicht:</p>
+<div class="satz">
+<pre class="json">{
+  <span class="k">"v"</span>: <span class="n">1</span>,
+  <span class="k">"spieler"</span>: <span class="s">"k7f3q9x2"</span>,
+  <span class="k">"spieltag"</span>: <span class="n">12</span>,
+  <span class="k">"version"</span>: <span class="s">"1.2.2"</span>,
+  <span class="k">"minuten"</span>: <span class="n">64</span>,
+  <span class="k">"sitzungen"</span>: <span class="n">3</span>,
+  <span class="k">"gebiet_bestes"</span>: <span class="n">78</span>,
+  <span class="k">"gebiet_tagesbeginn"</span>: <span class="n">71</span>,
+  <span class="k">"rebirths"</span>: <span class="n">2</span>,
+  <span class="k">"power_rebirths"</span>: <span class="n">1</span>,
+  <span class="k">"rebirth_stufen"</span>: { <span class="k">"dmg"</span>: <span class="n">31</span>, <span class="k">"money"</span>: <span class="n">28</span>, <span class="k">"speed"</span>: <span class="n">22</span> },
+  <span class="k">"werbung"</span>: { <span class="k">"boost"</span>: <span class="n">4</span>, <span class="k">"offline"</span>: <span class="n">2</span>, <span class="k">"kampf"</span>: <span class="n">3</span>,
+               <span class="k">"arena"</span>: <span class="n">2</span>, <span class="k">"spa"</span>: <span class="n">1</span> },
+  <span class="k">"arena_laeufe"</span>: <span class="n">3</span>,
+  <span class="k">"ziehungen"</span>: <span class="n">14</span>,
+  <span class="k">"werbefrei"</span>: <span class="n">false</span>
+}</pre>
+<table class="felder">
+<tr><td>spieler</td><td>Zufallsnummer, die das Spiel einmalig erzeugt. Nicht mit deinem Gerät, Google-Konto oder der Werbe-ID verbunden. Du siehst sie in den Einstellungen.</td></tr>
+<tr><td>spieltag</td><td>Wievielter Tag seit der Installation (kein Datum)</td></tr>
+<tr><td>version</td><td>Spielversion</td></tr>
+<tr><td>minuten<br>sitzungen</td><td>Wie lange und wie oft du an dem Tag gespielt hast</td></tr>
+<tr><td>gebiet_bestes<br>gebiet_tagesbeginn</td><td>Bestes Gebiet am Ende und am Anfang des Tages</td></tr>
+<tr><td>rebirths<br>power_rebirths<br>rebirth_stufen</td><td>Rebirths am Tag und Stand der Rebirth-Boni</td></tr>
+<tr><td>werbung</td><td>Wie oft du welche Werbe-Belohnung genutzt hast</td></tr>
+<tr><td>arena_laeufe<br>ziehungen</td><td>Arena-Läufe und Waffen-Ziehungen am Tag</td></tr>
+<tr><td>werbefrei</td><td>Ob „Werbefrei“ gekauft wurde (erklärt die Werbe-Zahlen)</td></tr>
+</table>
+</div>
+
+<h2>Was wir sammeln – und was nicht</h2>
+<div class="twocol">
+<div class="ja"><h3>✔ Gesendet</h3><ul>
+<li>nur die Zahlen aus dem Beispiel oben</li>
+<li>einmal am Tag, beim ersten Start des Tages</li>
+<li>fehlen Tage (z. B. offline), werden höchstens die letzten 7 nachgeschickt</li>
+</ul></div>
+<div class="nein"><h3>✘ Nicht gesendet</h3><ul>
+<li>kein Name, keine E-Mail, kein Google-Konto</li>
+<li>keine Geräte-ID, keine Werbe-ID, kein Standort</li>
+<li>keine Zahlungsdaten (nur ob „Werbefrei“ gekauft ist), kein Spielstand, keine Texte</li>
+<li>deine IP-Adresse wird nicht gespeichert</li>
+</ul></div>
+</div>
+
+<h2>Wo die Daten liegen</h2>
+<p>Die Daten gehen verschlüsselt (HTTPS) an <b>daten.capybara-squad.com</b> – unseren eigenen Server bei Tube-Hosting im Rechenzentrum von SkyLink in den Niederlanden (EU). Dort prüft ein kleines Programm, dass nur die oben gezeigten Felder mit sinnvollen Werten drin sind, und speichert sie in einer Datenbank. Zugriffs-Protokolle mit IP-Adressen schreiben wir nicht. Wir geben die Daten an niemanden weiter und nutzen sie nur, um unsere Spiel-Simulation einzustellen und das Balancing zu verbessern. Wir sammeln voraussichtlich ein Jahr lang. Jeder Datensatz wird spätestens 24 Monate nach dem Empfang automatisch gelöscht.</p>
+
+<h2>Abschalten und löschen</h2>
+<p>Ob das Spiel Daten senden darf, fragt es dich beim Start. Ändern kannst du das jederzeit unter <em>Einstellungen → Datenschutz → Spiel-Statistik</em>. Schaltest du es aus, wird ab sofort nichts mehr gesendet. Möchtest du, dass wir schon gesendete Daten löschen, schreib uns deine Zufallsnummer (steht auch dort) an <a href="mailto:info@capybara-squad.com">info@capybara-squad.com</a>.</p>
+<p>Rechtsgrundlage ist deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Mehr in unserer <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
+</main>
+<footer><div class="wrap"><span>© 2026 Second Coffee Studio</span><nav><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></nav></div></footer>
+</body></html>
